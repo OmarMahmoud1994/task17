@@ -1,0 +1,134 @@
+* , body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 19px 42px;
+    position: sticky;
+    top: 0;
+}
+nav .logo{
+    width: 255px;
+    height: 78px;
+}
+nav .list{
+    display: flex;
+    justify-content: space-between;
+    width: 53%;
+}
+nav .NavList a{
+   font-size: 20px;
+}
+
+header{
+    background-image: url("http://www.engage.veented.com/business-2/wp-content/uploads/sites/127/2017/08/business-2.jpg?id=961");
+    width: 100%;
+    height: 992px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .box{
+    width: 50%;
+}
+
+section{
+    width: 100%;
+    height: 588px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 350px;
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.container:hover img{
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+}
+.social-box{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top:-20%;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+.container:hover .social-box{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.name{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 5%;
+    left: -120%;
+}
+.name div{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h3{
+    color: red;
+}
+.container:hover .name{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
